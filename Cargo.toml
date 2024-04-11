@@ -27,8 +27,8 @@ concurrent-queue = "2.2.0"
 pin-project-lite = "0.2.9"
 
 [target.'cfg(target_os = "twizzler")'.dependencies]
-twizzler-abi = { path = "../../twizzler-abi" }
-twizzler-futures = { path = "../../twizzler-futures" }
+twizzler-abi = "0.1.0"
+twizzler-futures = "0.1.0"
 
 [target.'cfg(windows)'.dependencies.windows-sys]
 version = "0.52"
